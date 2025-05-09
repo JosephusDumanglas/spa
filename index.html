@@ -49,14 +49,14 @@
         
         <!-- Product list Dropdown Menu - NEWLY ADDED -->
     <div class="ui dropdown item" x-data="{ open: false }" @click="open = !open">
-        Products <i class="dropdown icon"></i>
+        products <i class="dropdown icon"></i>
         <div class="menu" x-show="open" @click.outside="open = false">
-            <a class="item" href="#" @click.prevent="navigateTo('Products/add_product'); open = false;">Add Product</a>
-            <a class="item" href="#" @click.prevent="navigateTo('Products/cart'); open = false;">Cart</a>
-            <a class="item" href="#" @click.prevent="navigateTo('Products/checkout'); open = false;">Checkout</a>
-            <a class="item" href="#" @click.prevent="navigateTo('Products/order_list'); open = false;">Order List</a>
-            <a class="item" href="#" @click.prevent="navigateTo('Products/payment'); open = false;">Payment</a>
-            <a class="item" href="#" @click.prevent="navigateTo('Products/product_list'); open = false;">Product List</a>
+            <a class="item" href="#" @click.prevent="navigateTo('products/add_product'); open = false;">Add Product</a>
+            <a class="item" href="#" @click.prevent="navigateTo('products/cart'); open = false;">Cart</a>
+            <a class="item" href="#" @click.prevent="navigateTo('products/checkout'); open = false;">Checkout</a>
+            <a class="item" href="#" @click.prevent="navigateTo('products/order_list'); open = false;">Order List</a>
+            <a class="item" href="#" @click.prevent="navigateTo('products/payment'); open = false;">Payment</a>
+            <a class="item" href="#" @click.prevent="navigateTo('products/product_list'); open = false;">Product List</a>
 
           
         </div>
